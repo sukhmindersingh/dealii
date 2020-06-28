@@ -194,7 +194,7 @@ $\varepsilon_{h,j}=D_{A,jj}/D_{M,jj}$ (where the indices
 $j$ corresponds exactly to the degrees of freedom that are constrained
 by Dirichlet boundary values).
 
-So how does one deal with them? The fist part is to recognize when our
+So how does one deal with them? The first part is to recognize when our
 eigenvalue solver finds one of them. To this end, the program computes
 and prints an interval within which these eigenvalues lie, by computing
 the minimum and maximum of the expression $\varepsilon_{h,j}=D_{A,jj}/D_{M,jj}$
